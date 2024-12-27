@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+
+*.py diff=python
+*.md diff=markdown
+
+*.log export-ignore
+debug/ export-ignore
+
